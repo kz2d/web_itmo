@@ -219,3 +219,17 @@ html {
 }
 
 
+.underline {
+      height: 1px;
+    background: black;
+    width: 0;
+    transition:width 0.5s;
+}
+
+.underline.current {
+  width:40%;
+}
+
+.nav-btn:hover .underline{
+width:30%;
+}
